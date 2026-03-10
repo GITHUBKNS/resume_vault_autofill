@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { AuthProvider, useAuth } from './context/AuthContext';
+import { Analytics } from '@vercel/analytics/react';
 import Navbar from './components/Navbar';
 import LoginPage from './pages/LoginPage';
 import RegisterPage from './pages/RegisterPage';
@@ -71,6 +72,7 @@ export default function App() {
     <BrowserRouter>
       <AuthProvider>
         <AppRoutes />
+        <Analytics />
       </AuthProvider>
     </BrowserRouter>
   );
