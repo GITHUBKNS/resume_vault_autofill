@@ -1,0 +1,15 @@
+{
+  "name": "resume-vault",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Resume Vault — store, manage, and autofill resume profiles.",
+  "scripts": {
+    "dev": "pnpm --filter @resume-vault/web dev",
+    "dev:web": "pnpm --filter @resume-vault/web dev",
+    "build": "pnpm -r build",
+    "build:web": "pnpm --filter @resume-vault/web build"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  }
+}
