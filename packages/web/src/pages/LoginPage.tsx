@@ -31,7 +31,7 @@ export default function LoginPage() {
         <div className="card-body">
           <div className="auth-logo">
             <h1>◆ Resume Vault</h1>
-            <p>Welcome back — sign in to your account</p>
+            <p>Welcome back Naga — sign in to your account</p>
           </div>
 
           {error && <div className="alert alert-error">{error}</div>}
